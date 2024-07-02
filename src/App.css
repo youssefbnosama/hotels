@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    color: #1B1F2D;
+}
+input{
+    background-color: #F2F2F2;
+}
+.btn{
+    background-color: #2F80ED   ;
+}
+.reg{
+    color: #2F80ED;
+    cursor: pointer;
+}
+.nav-btn{
+    background-color: #2F80ED;
+}
+.content-img{
+    background-image: url(./imgs/homeImgs/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80%;
+    height: auto;
+    min-height: 70vh;
+}
+.search-btn{
+    background-color: #F2F2F2;
+    width: calc(100% / 7);
+}
+.searched{
+    width: calc(100% / 7);
+    background-color: #2F80ED;
+}
+.covid{
+    background-color: #FCEFCA;
+}
+.naah{
+    width: 23%;
+}
+.img-insp{
+    width: 32%;
+}
+.p{
+    top:78% ;
+}
+.down-img{
+    background-image: url(./imgs/homeImgs/Rectangle\ 18\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.explore ul li{
+    padding: 4px;
+    margin: 2px;
+}
+.explore ul li:first-child{
+    font-weight: 700;
+}
+.footer{
+    background-color: #EBEBEB;
+}
